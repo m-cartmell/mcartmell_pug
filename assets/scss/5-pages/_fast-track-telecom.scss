@@ -1,0 +1,27 @@
+.fast-track-telecom {
+  .top_content {
+    background-color: $lightGrey;
+    padding-bottom: 0;
+
+    .single {
+      @include horizontal_half_pad;
+      @include vertical_pad_0;
+    }
+
+    .limit_width {
+      width: rem(960px);
+    }
+  }
+
+  .lower_content {
+    .content_block {
+      &:first-of-type {
+        @include horizontal_half_pad;
+      }
+
+      &:last-of-type {
+        background-color: $fttGrey;
+      }
+    }
+  }
+}

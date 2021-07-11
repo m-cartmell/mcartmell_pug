@@ -1,0 +1,29 @@
+extends layout
+
+block content
+
+  section.top_content
+    h1 Designer + Developer
+        
+    .controls
+      button.plain.filter.active(type="button" data-filter="*") All
+      each btn in sortButtons
+        button.plain.filter(type="button" data-filter=`.${prepString(btn)}`)= btn
+    
+  section#gallery
+    each item in content
+      a.item(class=`${prepString(item.categories)}` title=`${item.client}` href=`portfolio/${item.id}`)
+
+        //- Renders picture sets
+        - 
+          const { src, alt, format, widths, heights, columns } = item.gallery;
+          const id = item.id;
+          const client = item.client;
+        include components/image
+
+        .overlay
+          .details
+            h2 #{item.client}
+            .categories
+              each category in item.categories
+                span.category #{category}

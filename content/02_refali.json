@@ -1,0 +1,65 @@
+{
+  "client": "Refali",
+  "heading": "Branding, web design and livery",
+  "description": "A strong industrial logotype visual identity, striking livery and functional single page parallax website. A simple package, but enough to launch any enterprise.",
+  "categories": ["Branding", "Digital"],
+  "text": [
+    "Refali is a specialist installer of Reflok air conditioning and refrigeration system piping. Reflok’s interlocking aluminium piping joints require no brazing, unlike their copper counterparts, providing an array of benefits in sensitive commercial areas.",
+    "Refali’s logotype uses an uppercase version of Reflok’s font with ‘ALi’ outlined for aluminium — subtle hints to critical aspects of the business. The Pantone blue was carefully selected from the Color Bridge booklet to limit potential inconsistencies in Pantone and four colour print runs. As a vibrant and strong, highly industrial looking visual identity, it will hold its position against competitors.",
+    "With a very minimal budget in mind, I produced a smooth scrolling single page parallax website, outlining their services and providing a web presence."
+  ],
+  "images": {
+    "gallery": {
+      "src": "gallery-image",
+      "alt": "Gallery Image",
+      "format": ["svg"],
+      "widths": [640, 960, 1280],
+      "heights": [640, 960, 1280]
+    },
+    "top": [{ "src": "svg" }],
+    "lower": {
+      "block": [
+        {
+          "src": "stationery-mockup",
+          "alt": "Staionery Mockup",
+          "format": ["webp", "jpg"],
+          "widths": [640, 960, 1280, 1800],
+          "heights": [427, 640, 853, 1200],
+          "light_box": true
+        },
+        {
+          "src": "brand-guidelines-logotype-page-mockup",
+          "alt": "Brand Guidelines Logotype Page Mockup",
+          "format": ["webp", "jpg"],
+          "widths": [640, 960, 1280, 1800],
+          "heights": [427, 640, 853, 1200],
+          "light_box": true
+        },
+        {
+          "src": "parallax-web-page-demo",
+          "alt": "Parallax Web Page Demo",
+          "format": ["gif"],
+          "widths": [640, 960, 1200],
+          "heights": [427, 640, 800],
+          "light_box": true
+        }
+      ],
+      "block-2": [
+        {
+          "src": "livery-front-rear",
+          "alt": "Livery Front and Rear",
+          "format": ["webp", "jpg"],
+          "widths": [640, 960, 1280, 1920, 2560],
+          "heights": [293, 440, 587, 880, 1173]
+        },
+        {
+          "src": "livery-side-profile",
+          "alt": "Livery Side Profile",
+          "format": ["webp", "jpg"],
+          "widths": [640, 960, 1280, 1920, 2560],
+          "heights": [293, 440, 587, 880, 1173]
+        }
+      ]
+    }
+  }
+}

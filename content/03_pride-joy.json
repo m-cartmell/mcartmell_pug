@@ -1,0 +1,71 @@
+{
+  "client": "Pride & Joy",
+  "heading": "Branding, print design and art direction",
+  "description": "Pride & Joy’s playful illustrations and sophisticated serif logo, create a versatile combination for any print design application.",
+  "categories": ["Art direction", "Branding", "Print"],
+  "text": [
+    "Pride & Joy was Teknos’s answer to a consumer facing luxury paint brand for your home. The branding was to playfully reflect a vast and vibrant eco-friendly colour range, around the strap line, ‘Bursting with Colour’.",
+    "The brief was answered with a minimalist, tightly positioned serif logo, conveying an established air of sophistication. The flat stylised illustrations allow for bold use of colour, and give the brand character, whilst the nature theme underpins an eco-friendly brand value."
+  ],
+  "images": {
+    "gallery": {
+      "src": "gallery-image",
+      "alt": "Gallery Image",
+      "format": ["webp", "jpg"],
+      "widths": [640, 960, 1280],
+      "heights": [640, 960, 1280]
+    },
+    "top": [
+      {
+        "src": "swatches-banner-left",
+        "alt": "Swatches Banner Left",
+        "format": ["webp", "jpg"],
+        "widths": [640, 960, 1280, 1920, 2560],
+        "heights": [200, 300, 400, 600, 800]
+      },
+      {
+        "src": "swatches-banner-right",
+        "alt": "Swatches Banner Right",
+        "format": ["webp", "jpg"],
+        "widths": [640, 960, 1280, 1920, 2560],
+        "heights": [200, 300, 400, 600, 800]
+      }
+    ],
+    "lower": {
+      "block": [
+        {
+          "src": "stationery-mockup",
+          "alt": "Stationery Mockup",
+          "format": ["webp", "jpg"],
+          "widths": [640, 900, 1280],
+          "heights": [426, 599, 852],
+          "light_box": true
+        },
+        {
+          "src": "exhibition-stand",
+          "alt": "Exhibition Stand",
+          "format": ["webp", "jpg"],
+          "widths": [640, 900, 1280],
+          "heights": [426, 599, 852],
+          "light_box": true
+        },
+        {
+          "src": "colour-card-presentation-box",
+          "alt": "Colour Card Presentation Box",
+          "format": ["webp", "jpg"],
+          "widths": [640, 900, 1280],
+          "heights": [426, 599, 852],
+          "light_box": true
+        },
+        {
+          "src": "sample-pot-box",
+          "alt": "Sample Pot Box",
+          "format": ["webp", "jpg"],
+          "widths": [640, 900, 1280],
+          "heights": [426, 599, 852],
+          "light_box": true
+        }
+      ]
+    }
+  }
+}

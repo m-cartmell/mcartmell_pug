@@ -1,0 +1,31 @@
+.column {
+  @include horizontal_half_pad;
+  @include vertical_pad_0;
+}
+
+@media screen and (min-width: 768px) {
+  .x2 {
+    flex-basis: 50%;
+  }
+
+  .x3 {
+    flex-basis: 33.33%;
+  }
+
+  .x4,
+  .web_page {
+    flex-basis: 50%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .x4 {
+    flex-basis: 25%;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .web_page {
+    flex-basis: 25%;
+  }
+}

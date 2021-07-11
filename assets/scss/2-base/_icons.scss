@@ -1,0 +1,11 @@
+.icon {
+  display: block;
+  fill: $secondaryColour;
+  height: rem(22px);
+  transition: all $easeInOut;
+
+  &:focus,
+  &:hover {
+    fill: $primaryColour;
+  }
+}

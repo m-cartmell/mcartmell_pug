@@ -1,0 +1,37 @@
+// Container
+.content_block {
+  align-items: flex-start;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+// Disable GLightbox below 540px
+.glightbox {
+  @media screen and (max-width: 540px) {
+    pointer-events: none;
+  }
+}
+
+// GLightbox modal background
+.goverlay {
+  background: rgba(0, 0, 0, 0.8) !important;
+}
+
+img {
+  background-color: $lightGrey;
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+
+// Wrapper limiter
+.limit_width {
+  width: rem(1280px);
+}
+
+// Centres single image column
+.single {
+  margin: 0 auto;
+  padding: 0;
+}

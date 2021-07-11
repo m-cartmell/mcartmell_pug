@@ -1,0 +1,101 @@
+{
+  "client": "Wongs Jewellers",
+  "heading": "WordPress website design and development",
+  "description": "The design and development of an interim brochure website for Wongs jewellers, with a minimalistic modular layout to compliment their branding.",
+  "categories": ["Digital"],
+  "text": [
+    "Wongs are an independent family run jewellers, based in Liverpool. This project was briefed as an interim brochure site, to temporarily substitute the loss of what was their existing site.",
+    "Accordions and carousels utilise space, adding a level of micro-interaction, whilst a minimalistic modular layout compliments the current branding and works in favour of responsive behaviour."
+  ],
+  "images": {
+    "gallery": {
+      "src": "gallery-image",
+      "alt": "Gallery Image",
+      "format": ["webp", "jpg"],
+      "widths": [640, 960, 1280],
+      "heights": [640, 960, 1280]
+    },
+    "main": {
+      "accordion": [
+        {
+          "src": "home-web-page-top",
+          "alt": "Home Web Page Top",
+          "format": ["webp", "jpg"],
+          "widths": [640, 960, 1280, 1568],
+          "heights": [280, 420, 560, 686]
+        },
+        {
+          "src": "home-web-page-body",
+          "alt": "Home Web Page Body",
+          "format": ["webp", "jpg"],
+          "widths": [640, 960, 1280, 1568],
+          "heights": [1169, 1753, 2337, 2863]
+        }
+      ],
+      "accordion2": [
+        {
+          "src": "diamond-guide-web-page-top",
+          "alt": "Diamond Guide Web Page Top",
+          "format": ["webp", "jpg"],
+          "widths": [640, 960, 1280, 1568],
+          "heights": [280, 420, 560, 686]
+        },
+        {
+          "src": "diamond-guide-web-page-body",
+          "alt": "Diamond Guide Web Page Body",
+          "format": ["webp", "jpg"],
+          "widths": [640, 960, 1280, 1568],
+          "heights": [791, 1187, 1583, 1939]
+        }
+      ],
+      "accordion3": [
+        {
+          "src": "gift-vouchers-web-page-top",
+          "alt": "Gift Vouchers Web Page Top",
+          "format": ["webp", "jpg"],
+          "widths": [640, 960, 1280, 1568],
+          "heights": [280, 420, 560, 686]
+        },
+        {
+          "src": "gift-vouchers-web-page-body",
+          "alt": "Gift Vouchers Web Page Body",
+          "format": ["webp", "jpg"],
+          "widths": [640, 960, 1280, 1568],
+          "heights": [775, 1163, 1550, 1899]
+        }
+      ],
+      "accordion4": [
+        {
+          "src": "workshop-web-page-top",
+          "alt": "Workshop Web Page Top",
+          "format": ["webp", "jpg"],
+          "widths": [640, 960, 1280, 1568],
+          "heights": [280, 420, 560, 686]
+        },
+        {
+          "src": "workshop-web-page-body",
+          "alt": "Workshop Web Page Body",
+          "format": ["webp", "jpg"],
+          "widths": [640, 960, 1280, 1568],
+          "heights": [636, 954, 1272, 1558]
+        }
+      ],
+      "accordion5": [
+        {
+          "src": "repairs-alterations-web-page-top",
+          "alt": "Repairs & Alterations Web Page Top",
+          "format": ["webp", "jpg"],
+          "widths": [640, 960, 1280, 1568],
+          "heights": [280, 420, 560, 686]
+        },
+        {
+          "src": "repairs-alterations-web-page-body",
+          "alt": "Repairs & Alterations Web Page Body",
+          "format": ["webp", "jpg"],
+          "widths": [640, 960, 1280, 1568],
+          "heights": [563, 844, 1125, 1378]
+        }
+      ]
+    }
+  }
+}

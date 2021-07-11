@@ -1,0 +1,37 @@
+.oxfam-creative-concept {
+  .main_content {
+    @media screen and (min-width: 1440px) {
+      flex-direction: row;
+
+      .text_block {
+        order: 2 !important;
+      }
+    }
+
+    .column {
+      @include bottom_pad;
+    }
+  }
+
+  .glightbox {
+    pointer-events: all;
+    position: relative;
+
+    .icon {
+      bottom: rem(15px);
+      fill: white;
+      position: absolute;
+      right: rem(15px);
+
+      &:hover {
+        transform: scale(1.2);
+      }
+    }
+  }
+
+  // Hides glightbox prev/next buttons as only 1 image
+  .gprev,
+  .gnext {
+    display: none;
+  }
+}

@@ -1,0 +1,127 @@
+.index {
+  .top_content {
+    @include horizontal_pad;
+
+    align-items: baseline;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 0;
+
+    h1 {
+      margin-right: rem(20px);
+    }
+
+    // Gallery sort
+    .controls {
+      display: none;
+      font-size: rem(22px);
+      margin: rem(20px) 0;
+
+      @media screen and (min-width: 600px) {
+        display: block;
+      }
+
+      button {
+        font-size: rem(22px);
+        line-height: normal;
+        margin-right: rem(6px);
+
+        &::after {
+          content: '.';
+          margin-left: rem(1px);
+        }
+
+        &:last-child {
+          margin-right: 0;
+        }
+
+        &.active {
+          color: $primaryColour;
+        }
+      }
+    }
+  }
+}
+
+// Gallery and components
+#gallery {
+  background-color: $lightGrey;
+  padding: 0;
+  width: 100%;
+
+  .item {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+
+    // Breakpoints
+    @media screen and (min-width: 480px) {
+      width: 50%;
+    }
+
+    @media screen and (min-width: 900px) {
+      width: 33.33%;
+    }
+
+    @media screen and (min-width: 1200px) {
+      width: 25%;
+    }
+  }
+
+  .overlay {
+    @include absoluteFillArea;
+
+    background-color: rgba($color: black, $alpha: 0.6);
+    opacity: 0;
+    transition: all $easeInOut;
+  }
+
+  .details {
+    bottom: rem(40px);
+    display: none;
+    left: rem(40px);
+    position: absolute;
+    right: rem(40px);
+
+    h2 {
+      color: white;
+      margin-bottom: rem(12px);
+    }
+  }
+
+  .categories {
+    display: flex;
+
+    .category {
+      color: white;
+      font-size: rem(18px);
+      margin-right: rem(6px);
+
+      &::after {
+        content: '.';
+        margin-left: rem(1px);
+      }
+
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+
+  :hover,
+  :focus {
+    img {
+      transform: scale(1.1);
+      transition: all $easeInOut;
+    }
+
+    .overlay {
+      opacity: 1;
+      transition: all $easeInOut;
+    }
+
+    .details {
+      display: block;
+    }
+  }
+}

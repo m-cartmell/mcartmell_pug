@@ -1,0 +1,19 @@
+.johnsons-jewellers {
+  .top_content {
+    @include horizontal_pad_0;
+
+    background-color: $jjLightRose;
+
+    img {
+      background-color: $jjLightRose;
+    }
+  }
+
+  .lower_content {
+    .content_block {
+      &:first-of-type {
+        @include horizontal_half_pad;
+      }
+    }
+  }
+}

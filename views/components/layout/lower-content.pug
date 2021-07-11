@@ -1,0 +1,43 @@
+if (images.lower)
+  section.lower_content
+  
+    each block in images.lower
+
+      - 
+        const defineColumns = () => {
+          //- Pages – SS / Refali / JJ
+          if (block.length % 3 === 0) return 'x3';
+          else if (block.length % 2 === 0) {
+            //- Pages – PJ / CMJ
+            if (block.length > 2) return 'x4';
+            //- Pages – GBC / Refali
+            else return 'x2';
+          } else return 'single'; //- Pages – FT
+        }
+
+      .content_block
+        each img in block
+
+          - 
+            const { src, alt, format, widths, heights, columns, limit_width, light_box } = img;
+
+          if (img.length === 2)
+            //- Pages w accordions – FT / JJ / GBC / CMJ / EM
+            include ../accordion
+
+          else if (light_box)
+            - 
+              const checkGif = img.format.includes('gif') ? 'gif' : 'jpg';
+            //- Pages w light_box images – SS / Refali / PJ / JJ / GBC / CMJ
+            a.column.glightbox(
+              class=`${defineColumns()}` 
+              href=`/images/${id}/${id}-${img.src}-${img.widths[2]}.${checkGif}`
+            )
+              //- Renders picture sets
+              include ../image
+                    
+          else
+            //- Pages w no light_box images – Refali / FT
+            .column(class=`${defineColumns()}`)
+              //- Renders picture sets
+              include ../image

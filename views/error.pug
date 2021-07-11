@@ -1,0 +1,11 @@
+extends layout
+
+block content
+  section.main_content
+    if (err.status === 404)
+      h1= `${err.status} – ${err.message}`
+      p Oops! It looks like the page you're looking for doesn't exist.
+    else
+      h1= `${err.status} – Server Error`
+      p= `${err.message}`
+    a.button(title="Home page" href="/") Home

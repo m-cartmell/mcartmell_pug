@@ -1,0 +1,77 @@
+.top_bar {
+  border-bottom: rem(1px) solid $primaryColour;
+  line-height: 0;
+  padding: rem(2px) rem(3px);
+  width: 100%;
+
+  .btn {
+    border: rem(1px) solid $primaryColour;
+    border-radius: 50%;
+    display: inline-block;
+    height: rem(4px);
+    margin-right: rem(2px);
+    vertical-align: middle;
+    width: rem(4px);
+  }
+
+  @media screen and (min-width: 768px) {
+    padding: rem(3px) rem(5px);
+
+    .btn {
+      height: rem(6px);
+      margin-right: rem(3px);
+      width: rem(6px);
+    }
+  }
+}
+
+.accordion {
+  padding: 0 rem(12.5px) rem(25px) !important;
+
+  @media screen and (min-width: 414px) {
+    padding: 0 rem(20px) rem(40px) !important;
+  }
+
+  .container {
+    border: rem(1px) solid $primaryColour;
+    border-top-left-radius: rem(3px);
+    border-top-right-radius: rem(3px);
+    position: relative;
+  }
+
+  .image {
+    &:last-of-type {
+      height: 0;
+      overflow: hidden;
+      transition: height 0.5s;
+    }
+  }
+
+  .expand {
+    background-color: $primaryColour;
+    border-radius: 50%;
+    bottom: rem(-13.5px);
+    height: rem(27px);
+    left: 0;
+    margin: 0 auto;
+    position: absolute;
+    right: 0;
+    transition: transform 0.3s;
+    width: rem(27px);
+
+    .icon {
+      fill: white;
+      height: rem(17px);
+      margin: 0 auto;
+    }
+
+    &:hover {
+      background-color: $secondaryColour;
+    }
+  }
+
+  .rotate {
+    transform: rotate(45deg);
+    transition: transform 0.3s;
+  }
+}

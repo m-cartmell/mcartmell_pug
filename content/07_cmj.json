@@ -1,0 +1,131 @@
+{
+  "client": "The Company of Master Jewellers",
+  "heading": "Website design in Sketch",
+  "description": "The CMJ’s website designs, for an all-encompassing web app, provide a powerful visual system, for an effective interface and responsively flexible layout.",
+  "categories": ["Digital"],
+  "text": [
+    "The CMJ is a UK-based buying group for jewellers. The aim of the project was to create a custom-built all-encompassing web app, supporting different aspects of the business and functioning as an online community for the membership.",
+    "A powerful visual system of colour palettes, interactions and design features create an effective interface, promoting an intuitive user experience. The bold modular layouts are well structured and responsively flexible, a suitably corporate, yet practical design decision."
+  ],
+  "images": {
+    "gallery": {
+      "src": "gallery-image",
+      "alt": "Gallery Image",
+      "format": ["webp", "jpg"],
+      "widths": [640, 960, 1280],
+      "heights": [640, 960, 1280]
+    },
+    "top": [
+      {
+        "src": "website-home-page-mockup",
+        "alt": "Website Home Page Mockup",
+        "format": ["webp", "jpg"],
+        "widths": [640, 960, 1280, 1800],
+        "heights": [347, 521, 694, 976],
+        "limit_width": true
+      }
+    ],
+    "lower": {
+      "block": {
+        "accordion": [
+          {
+            "src": "store-finder-web-page-top",
+            "alt": "Store Finder Web Page Top",
+            "format": ["webp", "jpg"],
+            "widths": [664, 900, 1280, 1556],
+            "heights": [261, 354, 504, 612]
+          },
+          {
+            "src": "store-finder-web-page-body",
+            "alt": "Store Finder Web Page Body",
+            "format": ["webp", "jpg"],
+            "widths": [664, 900, 1280, 1556],
+            "heights": [675, 914, 1300, 1581]
+          }
+        ],
+        "accordion2": [
+          {
+            "src": "profile-wizard-web-page-top",
+            "alt": "Profile Wizard Web Page Top",
+            "format": ["webp", "jpg"],
+            "widths": [664, 900, 1280, 1556],
+            "heights": [261, 354, 504, 612]
+          },
+          {
+            "src": "profile-wizard-web-page-body",
+            "alt": "Profile Wizard Web Page Body",
+            "format": ["webp", "jpg"],
+            "widths": [664, 900, 1280, 1556],
+            "heights": [379, 514, 731, 889]
+          }
+        ],
+        "accordion3": [
+          {
+            "src": "community-web-page-top",
+            "alt": "Community Web Page Top",
+            "format": ["webp", "jpg"],
+            "widths": [664, 900, 1280, 1556],
+            "heights": [261, 354, 504, 612]
+          },
+          {
+            "src": "community-web-page-body",
+            "alt": "Community Web Page Body",
+            "format": ["webp", "jpg"],
+            "widths": [664, 900, 1280, 1556],
+            "heights": [384, 472, 671, 816]
+          }
+        ],
+        "accordion4": [
+          {
+            "src": "news-article-web-page-top",
+            "alt": "News Article Web Page Top",
+            "format": ["webp", "jpg"],
+            "widths": [664, 900, 1280, 1556],
+            "heights": [261, 354, 504, 612]
+          },
+          {
+            "src": "news-article-web-page-body",
+            "alt": "News Article Web Page Body",
+            "format": ["webp", "jpg"],
+            "widths": [664, 900, 1280, 1556],
+            "heights": [673, 913, 1298, 1578]
+          }
+        ]
+      },
+      "block-2": [
+        {
+          "src": "website-form-states",
+          "alt": "Website Form States",
+          "format": ["webp", "jpg"],
+          "widths": [640, 960, 1180],
+          "heights": [582, 873, 1073],
+          "light_box": true
+        },
+        {
+          "src": "website-buttons-ui-kit",
+          "alt": "Website Buttons & UI Kit",
+          "format": ["webp", "jpg"],
+          "widths": [640, 960, 1180],
+          "heights": [582, 873, 1073],
+          "light_box": true
+        },
+        {
+          "src": "website-grid-system",
+          "alt": "Website Grid System Guide",
+          "format": ["webp", "jpg"],
+          "widths": [640, 960, 1180],
+          "heights": [582, 873, 1073],
+          "light_box": true
+        },
+        {
+          "src": "website-fonts",
+          "alt": "Website Font Guide",
+          "format": ["webp", "jpg"],
+          "widths": [640, 960, 1180],
+          "heights": [582, 873, 1073],
+          "light_box": true
+        }
+      ]
+    }
+  }
+}

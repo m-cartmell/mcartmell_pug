@@ -1,0 +1,13 @@
+.error {
+  .main_content {
+    @include bottom_pad;
+    @include horizontal_pad;
+    align-items: flex-start;
+    border-bottom: rem(1px) solid $secondaryColour;
+    flex-direction: column;
+
+    p {
+      margin-bottom: rem(16px);
+    }
+  }
+}

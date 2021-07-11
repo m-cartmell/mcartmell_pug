@@ -1,0 +1,22 @@
+extends layout
+
+block content
+
+  include components/layout/top-content
+
+  include components/layout/main-content
+
+  include components/layout/lower-content
+  
+  .page_nav
+    if (prev)
+      a.button.prev(
+        title=`Previous page: ${prev.client}` 
+        href=`${prev.id}`
+      ) Prev
+    a.button(title="Home page" href="/") Home
+    if (next)
+      a.button.next(
+        title=`Next page: ${next.client}` 
+        href=`${next.id}`
+      ) Next

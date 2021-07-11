@@ -1,0 +1,59 @@
+#contact.modal
+  form(name="contactForm" role="form")
+    h2 Send a message&hellip;
+
+    input#g-recaptcha-response(type="hidden" name="token")
+
+    p.input_group
+      label.input_label(for="name") Name *
+      input#name(
+        type="text" 
+        name="name" 
+        required)
+    //- Bot trap
+    p.input_group.agent
+      label(for="last-name") Last Name
+      input(
+        type="text" 
+        name="last-name")
+    //- End bot trap
+    p.input_group
+      label.input_label(for="email") Email *
+      input#email(
+        type="email" 
+        name="email" 
+        required)
+    p.input_group
+      label.input_label(for="subject") Subject *
+      input#subject(
+        type="text" 
+        name="subject"
+        required)
+    p.input_group
+      label.input_label(for="message") Message *
+      textarea#message(
+        name="message" 
+        required)
+
+    p#notification
+
+    button#send.block(title="Send form" type="submit") Send
+      
+    button#close_form.plain(title="Close form" type="button")
+      include ../icons/plus-icon
+
+    .recaptcha_text This site is protected by reCAPTCHA and the Google 
+      a(
+        href="https://policies.google.com/privacy" 
+        target="_blank" 
+        rel="noreferrer" 
+        title="Visit Page"
+      ) Privacy Policy
+      |  and 
+      a(
+        href="https://policies.google.com/terms" 
+        target="_blank" 
+        rel="noreferrer" 
+        title="Visit Page"
+      ) Terms of Service
+      |  apply.

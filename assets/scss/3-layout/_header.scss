@@ -1,0 +1,31 @@
+header {
+  @include full_pad;
+  align-items: baseline;
+  display: flex;
+  font-size: rem(26px);
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+
+  .identity {
+    color: $primaryColour;
+    display: flex;
+    font-size: rem(26px);
+    margin-right: rem(6px);
+
+    .full {
+      display: none;
+
+      // Toggles full identity @ screens > 340px
+      @media screen and (min-width: 340px) {
+        display: inline-block;
+      }
+    }
+  }
+
+  #typeAnimation {
+    font-family: $serifFamily;
+    width: 100%;
+  }
+}

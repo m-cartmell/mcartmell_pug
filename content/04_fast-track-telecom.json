@@ -1,0 +1,107 @@
+{
+  "client": "Fast-Track Telecom",
+  "heading": "Website design and development",
+  "description": "The design and development of a responsive brochure website, for an Oxfordshire based telecommunications specialist. A modular design system lends itself to any layout.",
+  "categories": ["Digital"],
+  "text": [
+    "As Oxfordshire based telecommunications specialists, providing telephone systems, broadband connectivity and networking solutions to businesses, Fast-Track required a brochure site outlining their services and providing a clear point of contact.",
+    "Design elements taken from their branding give the site a distinctive visual identity, and the simple modular layouts translate effectively down through to mobile. Graphical illustrations help to explain the basis of what they provide, and interpage links tie the services together, creating a user journey."
+  ],
+  "images": {
+    "gallery": {
+      "src": "gallery-image",
+      "alt": "Gallery Image",
+      "format": ["webp", "jpg"],
+      "widths": [640, 960, 1280],
+      "heights": [640, 960, 1280]
+    },
+    "top": [
+      {
+        "src": "website-home-screens",
+        "alt": "Website Home Screen Mockups",
+        "format": ["webp", "jpg"],
+        "widths": [640, 960, 1280, 1920],
+        "heights": [294, 441, 588, 882],
+        "limit_width": true
+      }
+    ],
+    "lower": {
+      "block": {
+        "accordion": [
+          {
+            "src": "home-web-page-top",
+            "alt": "Home Web Page Top",
+            "format": ["webp", "jpg"],
+            "widths": [664, 900, 1280, 1440],
+            "heights": [277, 375, 533, 600]
+          },
+          {
+            "src": "home-web-page-body",
+            "alt": "Home Web Page Body",
+            "format": ["webp", "jpg"],
+            "widths": [664, 900, 1280, 1440],
+            "heights": [629, 853, 1212, 1364]
+          }
+        ],
+        "accordion2": [
+          {
+            "src": "mpls-web-page-top",
+            "alt": "MPLS Web Page Top",
+            "format": ["webp", "jpg"],
+            "widths": [664, 900, 1280, 1440],
+            "heights": [277, 375, 533, 600]
+          },
+          {
+            "src": "mpls-web-page-body",
+            "alt": "MPLS Web Page Body",
+            "format": ["webp", "jpg"],
+            "widths": [664, 900, 1280, 1440],
+            "heights": [386, 524, 745, 838]
+          }
+        ],
+        "accordion3": [
+          {
+            "src": "cloud-telephony-web-page-top",
+            "alt": "Cloud Telephony Web Page Top",
+            "format": ["webp", "jpg"],
+            "widths": [664, 900, 1280, 1440],
+            "heights": [277, 375, 533, 600]
+          },
+          {
+            "src": "cloud-telephony-web-page-body",
+            "alt": "Cloud Telephony Web Page Body",
+            "format": ["webp", "jpg"],
+            "widths": [664, 900, 1280, 1440],
+            "heights": [307, 416, 592, 666]
+          }
+        ],
+        "accordion4": [
+          {
+            "src": "clients-web-page-top",
+            "alt": "Clients Web Page Top",
+            "format": ["webp", "jpg"],
+            "widths": [664, 900, 1280, 1440],
+            "heights": [277, 375, 533, 600]
+          },
+          {
+            "src": "clients-web-page-body",
+            "alt": "Clients Web Page Body",
+            "format": ["webp", "jpg"],
+            "widths": [664, 900, 1280, 1440],
+            "heights": [244, 331, 470, 529]
+          }
+        ]
+      },
+      "block-2": [
+        {
+          "src": "website-mobile-screens",
+          "alt": "Website Mobile Screens Mockup",
+          "format": ["webp", "jpg"],
+          "widths": [640, 960, 1280, 1920, 2560],
+          "heights": [301, 452, 603, 904, 1205],
+          "limit_width": true
+        }
+      ]
+    }
+  }
+}

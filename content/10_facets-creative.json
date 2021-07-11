@@ -1,0 +1,35 @@
+{
+  "client": "Facets Creative",
+  "heading": "Email animation",
+  "description": "The bold minimalistic design empowers confidence, while the animation dynamically introduces the agency’s services and efficiently uses the limited space.",
+  "categories": ["Digital"],
+  "text": [
+    "The bold minimalistic design empowers confidence, while the animation dynamically introduces the agency’s services and efficiently uses the limited space. Hopefully the jewellery group appreciated the playful heading, influenced by a Monroe classic.",
+    "Animation produced in After Effects."
+  ],
+  "images": {
+    "gallery": {
+      "src": "gallery-image",
+      "alt": "Gallery Image",
+      "format": ["svg"],
+      "widths": [640, 960, 1280],
+      "heights": [640, 960, 1280]
+    },
+    "main": [
+      {
+        "src": "email-header",
+        "alt": "Email Header",
+        "format": ["svg"],
+        "widths": [600],
+        "heights": [500]
+      },
+      {
+        "src": "animation",
+        "alt": "Services Animation",
+        "format": ["gif"],
+        "widths": [375, 600],
+        "heights": [281, 450]
+      }
+    ]
+  }
+}

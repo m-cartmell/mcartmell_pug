@@ -1,0 +1,56 @@
+form {
+  background-color: white;
+  cursor: default;
+  max-width: rem(500px);
+  padding: rem(30px);
+  position: relative;
+  text-align: left;
+  width: 100%;
+
+  // Honeypot input wrapper
+  .agent {
+    display: none;
+  }
+
+  h2 {
+    color: $primaryColour;
+    margin-bottom: rem(30px);
+  }
+
+  #notification {
+    font-weight: 500;
+    margin-bottom: 0;
+
+    &.delivered {
+      color: $success;
+    }
+
+    &.undelivered {
+      color: $error;
+    }
+  }
+
+  // Close button
+  #close_form {
+    position: absolute;
+    right: rem(15px);
+    top: rem(15px);
+
+    .icon {
+      transform: rotate(45deg);
+    }
+  }
+
+  // reCAPTCHA text
+  .recaptcha_text {
+    font-size: rem(15px);
+    line-height: 1.25;
+    margin-top: rem(30px);
+  }
+}
+
+// Hides reCAPTCHA badge
+.grecaptcha-badge {
+  opacity: 0;
+  visibility: hidden !important;
+}

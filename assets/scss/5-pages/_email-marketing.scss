@@ -1,0 +1,22 @@
+.email-marketing {
+  .top_content {
+    background-color: $lightGrey;
+  }
+
+  .lower_content {
+    .content_block {
+      @include horizontal_half_pad;
+      background-color: white !important;
+    }
+
+    .top_bar {
+      padding: rem(4px) rem(6px);
+
+      .btn {
+        height: rem(8px);
+        margin-right: rem(4px);
+        width: rem(8px);
+      }
+    }
+  }
+}

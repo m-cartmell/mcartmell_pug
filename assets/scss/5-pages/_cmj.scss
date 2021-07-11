@@ -1,0 +1,31 @@
+.cmj {
+  .top_content {
+    background-color: $lightGrey;
+    padding-bottom: 0;
+
+    .single {
+      @include horizontal_half_pad;
+      @include vertical_pad_0;
+    }
+  }
+
+  img {
+    &.limit_width {
+      width: rem(900px);
+    }
+  }
+
+  .lower_content {
+    .content_block {
+      @include horizontal_half_pad;
+
+      &:last-of-type {
+        @include half_pad;
+
+        .column {
+          @include half_pad;
+        }
+      }
+    }
+  }
+}

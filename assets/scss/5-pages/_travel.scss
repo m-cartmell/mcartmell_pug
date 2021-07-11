@@ -1,0 +1,34 @@
+.travel {
+  .main_content {
+    @include half_bottom_pad;
+    @include horizontal_pad_0;
+    flex-direction: column;
+
+    .text_block {
+      @include horizontal_pad;
+      order: -1 !important;
+
+      h2 {
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  // Load more button
+  .eapps-instagram-feed-posts-grid-load-more-text {
+    background-color: white;
+    border: rem(1px) solid $primaryColour;
+    color: $primaryColour;
+    cursor: pointer;
+    display: inline-block;
+    font: 400 rem(18px) $sansFamily;
+    line-height: 1;
+    padding: rem(3px) rem(12px) rem(4px);
+    transition: all $easeInOut;
+
+    &:hover {
+      background-color: $primaryColour;
+      color: white;
+    }
+  }
+}

@@ -1,0 +1,38 @@
+.refali {
+  .top_content {
+    background-color: $refaliBlue;
+
+    .single {
+      @include half_pad;
+    }
+
+    #refali_logo {
+      fill: white;
+      max-width: rem(300px);
+      width: 100%;
+
+      .logo {
+        animation: logo 5s ease forwards;
+
+        @keyframes logo {
+          0% {
+            opacity: 0;
+          }
+
+          100% {
+            opacity: 1;
+          }
+        }
+      }
+
+      .strapline {
+        animation-delay: 2s;
+        opacity: 0;
+      }
+    }
+  }
+
+  .lower_content {
+    background-color: $lightGrey;
+  }
+}

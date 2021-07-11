@@ -1,0 +1,78 @@
+.facets-creative {
+  .main_content {
+    align-items: unset;
+    background-color: $fcYellow;
+    padding-bottom: 0;
+
+    @media screen and (min-width: 1024px) {
+      flex-direction: row;
+    }
+
+    h2 {
+      color: $primaryColour;
+    }
+
+    .column {
+      &.image_comp {
+        align-items: center;
+        flex: 1;
+        flex-direction: column;
+        padding-bottom: 0;
+        position: relative;
+      }
+
+      &.text_block {
+        @include bottom_pad;
+
+        @media screen and (min-width: 1024px) {
+          order: 2;
+        }
+      }
+    }
+
+    .top_bar {
+      border: rem(1px) solid $primaryColour;
+      border-top-left-radius: rem(3px);
+      border-top-right-radius: rem(3px);
+      max-width: rem(600px);
+      padding: rem(4px) rem(6px);
+
+      .btn {
+        height: rem(8px);
+        margin-right: rem(4px);
+        width: rem(8px);
+      }
+    }
+
+    picture {
+      border: rem(1px) solid $primaryColour;
+      max-width: rem(600px);
+      width: 100%;
+
+      &:first-of-type {
+        border-bottom: none;
+        border-top: none;
+      }
+
+      &:last-of-type {
+        border: none;
+        bottom: 0;
+        margin-bottom: rem(15px);
+        position: absolute;
+
+        @media screen and (min-width: 768px) {
+          margin-bottom: rem(20px);
+        }
+
+        img {
+          margin: 0 auto;
+          width: 50%;
+        }
+      }
+
+      img {
+        background-color: $fcYellow;
+      }
+    }
+  }
+}

@@ -1,0 +1,110 @@
+section {
+  @include half_pad;
+  align-items: flex-start;
+  display: flex;
+  flex-wrap: wrap;
+
+  &:first-of-type {
+    @include header_pad_allowance;
+    flex-wrap: nowrap;
+
+    .column {
+      &.double {
+        padding: 0;
+
+        // Hides 2nd banner image by default
+        &:last-of-type {
+          display: none;
+
+          // Displays 2nd banner image @ screens > 768px
+          @media screen and (min-width: 768px) {
+            display: block;
+          }
+        }
+      }
+    }
+  }
+
+  &.main_content {
+    @include top_pad;
+    flex-direction: column;
+    padding-bottom: 0;
+
+    // Select all .columns with .main_content parent
+    > .column {
+      @include bottom_pad;
+      flex: 1;
+
+      &.image_block {
+        display: flex;
+        flex: 2;
+      }
+
+      &.text_block {
+        order: -1;
+
+        .wrapper {
+          max-width: rem(900px);
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  @media screen and (min-width: 1920px) {
+    &.main_content {
+      flex-direction: row;
+
+      .column {
+        &.text_block {
+          order: 2;
+        }
+      }
+    }
+  }
+
+  &.lower_content {
+    padding: 0;
+
+    .column {
+      @include horizontal_pad_0;
+    }
+
+    .content_block {
+      &:last-of-type {
+        background-color: $lightGrey;
+      }
+    }
+  }
+}
+
+// Portfolio navigation
+.page_nav {
+  @include horizontal_pad;
+  background-color: $secondaryColour;
+  text-align: center;
+
+  @media screen and (min-width: 768px) {
+    text-align: right;
+  }
+
+  .button {
+    background-color: $secondaryColour;
+    border: rem(1px) solid white;
+    border-bottom: none;
+    border-top: none;
+    color: white;
+
+    &.prev {
+      border-right: none;
+    }
+
+    &.next {
+      border-left: none;
+    }
+
+    &:hover {
+      background-color: $primaryColour;
+    }
+  }
+}

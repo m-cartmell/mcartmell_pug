@@ -1,0 +1,112 @@
+{
+  "client": "Status Seating",
+  "heading": "Brochure design and art direction",
+  "description": "The Status Seating brochure, a tasteful balance of clean print design and considered art direction, clearly highlight their product range.",
+  "categories": ["Art direction", "Print"],
+  "text": [
+    "Status Seating manufacture a variety of chairs in number of different configurations. They required a brochure to not only highlight, but compare the features and options of their product range.",
+    "The main issue was creating a set of feature images on a modest budget. Image comping the chairs into suitable backgrounds was the most viable solution, hand picking upholstery to complement the surroundings.",
+    "The brochure’s clean layout and subtle design features improve readability and usability, whilst generously sized product shots help support the information, and plenty of white space allows the pages to breathe."
+  ],
+  "images": {
+    "gallery": {
+      "src": "gallery-image",
+      "alt": "Gallery Image",
+      "format": ["webp", "jpg"],
+      "widths": [640, 960, 1280],
+      "heights": [640, 960, 1280]
+    },
+    "top": [
+      {
+        "src": "product-line-left",
+        "alt": "Product Line Left",
+        "format": ["webp", "jpg"],
+        "widths": [640, 960, 1280, 1920, 2560],
+        "heights": [119, 178, 237, 356, 474]
+      },
+      {
+        "src": "product-line-right",
+        "alt": "Product Line Right",
+        "format": ["webp", "jpg"],
+        "widths": [640, 960, 1280, 1920, 2560],
+        "heights": [119, 178, 237, 356, 474]
+      }
+    ],
+    "lower": {
+      "block": [
+        {
+          "src": "brochure-cover",
+          "alt": "Brochure Cover",
+          "format": ["webp", "jpg"],
+          "widths": [640, 960, 1280, 1800],
+          "heights": [640, 960, 1280, 1800],
+          "light_box": true
+        },
+        {
+          "src": "torus-hero",
+          "alt": "Torus Hero Image",
+          "format": ["webp", "jpg"],
+          "widths": [640, 960, 1280, 1800],
+          "heights": [640, 960, 1280, 1800],
+          "light_box": true
+        },
+        {
+          "src": "brochure-kuhla-mantle-spread",
+          "alt": "Kuhla & Mantle Brochure Spread",
+          "format": ["webp", "jpg"],
+          "widths": [640, 960, 1280, 1800],
+          "heights": [640, 960, 1280, 1800],
+          "light_box": true
+        },
+        {
+          "src": "kuhla-mantle-hero",
+          "alt": "Kuhla & Mantle Hero Image",
+          "format": ["webp", "jpg"],
+          "widths": [640, 960, 1280, 1800],
+          "heights": [640, 960, 1280, 1800],
+          "light_box": true
+        },
+        {
+          "src": "brochure-manufacturing-spread",
+          "alt": "Manufacturing Brochure Spread",
+          "format": ["webp", "jpg"],
+          "widths": [640, 960, 1280, 1800],
+          "heights": [640, 960, 1280, 1800],
+          "light_box": true
+        },
+        {
+          "src": "cpod-hero",
+          "alt": "Cpod Hero Image",
+          "format": ["webp", "jpg"],
+          "widths": [640, 960, 1280, 1800],
+          "heights": [640, 960, 1280, 1800],
+          "light_box": true
+        },
+        {
+          "src": "brochure-cpod-spread",
+          "alt": "Cpod Brochure Spread",
+          "format": ["webp", "jpg"],
+          "widths": [640, 960, 1280, 1800],
+          "heights": [640, 960, 1280, 1800],
+          "light_box": true
+        },
+        {
+          "src": "zen-hero",
+          "alt": "Zen Hero Image",
+          "format": ["webp", "jpg"],
+          "widths": [640, 960, 1280, 1800],
+          "heights": [640, 960, 1280, 1800],
+          "light_box": true
+        },
+        {
+          "src": "brochure-comparison-spread",
+          "alt": "Brochure Comparison Spread",
+          "format": ["webp", "jpg"],
+          "widths": [640, 960, 1280, 1800],
+          "heights": [640, 960, 1280, 1800],
+          "light_box": true
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,33 @@
+footer {
+  @include full_pad;
+  text-align: center;
+
+  .icons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: rem(25px);
+
+    .wrap {
+      box-sizing: content-box;
+      margin-right: rem(25px);
+
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+}
+
+// Switches footer elements to rows @ screens > 480px
+@media screen and (min-width: 480px) {
+  footer {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    .icons {
+      margin-bottom: 0;
+    }
+  }
+}

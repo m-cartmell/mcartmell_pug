@@ -1,0 +1,11 @@
+.wongs-jewellers {
+  .image_block {
+    @include horizontal_pad_0;
+    flex-wrap: wrap;
+    padding-bottom: 0 !important;
+  }
+
+  .text_block {
+    @include bottom_pad;
+  }
+}

@@ -1,0 +1,16 @@
+if (images.top)
+  section.top_content
+
+    - 
+      const bannerType = images.top.length === 1 ? 'single' : 'double';
+    each img in images.top
+      .column(class=`${bannerType}`)
+
+        if (id.includes('refali'))
+          include ../refali-logo
+        
+        else
+          //- Renders picture sets
+          - 
+            const { src, alt, format, widths, heights, columns, limit_width } = img;
+          include ../image

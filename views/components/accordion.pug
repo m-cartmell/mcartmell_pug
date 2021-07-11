@@ -1,0 +1,17 @@
+- 
+  const defineColumns = () => {
+    if (id.includes('email')) return 'x4';
+    else if (id.includes('wongs')) return 'x2';
+    else return 'web_page';
+  };
+  
+.column.accordion(class=`${defineColumns()}`)
+  .container
+    include window-top-bar
+    each el in img
+      .image
+        //- Renders picture sets
+        - const { src, alt, format, widths, heights, columns } = el;
+        include image
+    button.plain.expand(title="Expand Image" type="button")
+      include icons/plus-icon

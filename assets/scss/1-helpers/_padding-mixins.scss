@@ -1,0 +1,77 @@
+@mixin bottom_pad {
+  padding-bottom: rem(25px);
+
+  @media screen and (min-width: 414px) {
+    padding-bottom: rem(40px);
+  }
+}
+
+@mixin full_pad {
+  padding: rem(25px);
+
+  @media screen and (min-width: 414px) {
+    padding: rem(40px);
+  }
+}
+
+@mixin half_bottom_pad {
+  padding-bottom: rem(12.5px) !important;
+
+  @media screen and (min-width: 414px) {
+    padding-bottom: rem(20px) !important;
+  }
+}
+
+@mixin half_pad {
+  padding: rem(12.5px);
+
+  @media screen and (min-width: 414px) {
+    padding: rem(20px);
+  }
+}
+
+@mixin header_pad_allowance {
+  padding-top: rem(76px) !important;
+
+  @media screen and (min-width: 414px) {
+    padding-top: rem(106px) !important;
+  }
+}
+
+@mixin horizontal_half_pad {
+  padding-left: rem(12.5px);
+  padding-right: rem(12.5px);
+
+  @media screen and (min-width: 414px) {
+    padding-left: rem(20px);
+    padding-right: rem(20px);
+  }
+}
+
+@mixin horizontal_pad {
+  padding-left: rem(25px);
+  padding-right: rem(25px);
+
+  @media screen and (min-width: 414px) {
+    padding-left: rem(40px);
+    padding-right: rem(40px);
+  }
+}
+
+@mixin horizontal_pad_0 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+@mixin top_pad {
+  padding-top: rem(25px);
+
+  @media screen and (min-width: 414px) {
+    padding-top: rem(40px);
+  }
+}
+
+@mixin vertical_pad_0 {
+  padding-bottom: 0;
+  padding-top: 0;
+}

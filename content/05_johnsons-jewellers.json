@@ -1,0 +1,146 @@
+{
+  "client": "Johnsons Jewellers",
+  "heading": "Website design and art direction",
+  "description": "Johnson’s timeless minimalistic website design complements their elegant branding and allows their products, and services to take dominance.",
+  "categories": ["Art direction", "Digital"],
+  "text": [
+    "Johnsons are a mid/high end family jewellers, trading from a store in Nuneaton. They required an eCommerce website with an overview of their services, and photography to illustrate.",
+    "The minimalistic design will stand the test of time and complements their elegant branding — allowing the products and services to take dominance. As the site was built on Magento it furthered my experience with the CMS, adjusting template styling, creating and customising static content."
+  ],
+  "images": {
+    "gallery": {
+      "src": "gallery-image",
+      "alt": "Gallery Image",
+      "format": ["webp", "jpg"],
+      "widths": [640, 960, 1280],
+      "heights": [640, 960, 1280]
+    },
+    "top": [
+      {
+        "src": "home-web-page-demo",
+        "alt": "Website Home Page Demo",
+        "format": ["webp", "gif"],
+        "widths": [640, 960, 1280],
+        "heights": [300, 450, 600]
+      }
+    ],
+    "lower": {
+      "block": {
+        "accordion": [
+          {
+            "src": "services-web-page-top",
+            "alt": "Services Web Page Top",
+            "format": ["webp", "jpg"],
+            "widths": [664, 900, 1280, 1556],
+            "heights": [277, 375, 533, 648]
+          },
+          {
+            "src": "services-web-page-body",
+            "alt": "Services Web Page Body",
+            "format": ["webp", "jpg"],
+            "widths": [664, 900, 1280, 1556],
+            "heights": [637, 864, 1228, 1493]
+          }
+        ],
+        "accordion2": [
+          {
+            "src": "repairs-alterations-web-page-top",
+            "alt": "Repairs & Alterations Web Page Top",
+            "format": ["webp", "jpg"],
+            "widths": [664, 900, 1280, 1556],
+            "heights": [277, 375, 533, 648]
+          },
+          {
+            "src": "repairs-alterations-web-page-body",
+            "alt": "Repairs & Alterations Web Page Body",
+            "format": ["webp", "jpg"],
+            "widths": [664, 900, 1280, 1556],
+            "heights": [1107, 1501, 2134, 2594]
+          }
+        ],
+        "accordion3": [
+          {
+            "src": "watch-repairs-web-page-top",
+            "alt": "Watch Repairs Web Page Top",
+            "format": ["webp", "jpg"],
+            "widths": [664, 900, 1280, 1556],
+            "heights": [277, 375, 533, 648]
+          },
+          {
+            "src": "watch-repairs-web-page-body",
+            "alt": "Watch Repairs Web Page Body",
+            "format": ["webp", "jpg"],
+            "widths": [664, 900, 1280, 1556],
+            "heights": [1041, 1411, 2007, 2440]
+          }
+        ],
+        "accordion4": [
+          {
+            "src": "brands-web-page-top",
+            "alt": "Brands Web Page Top",
+            "format": ["webp", "jpg"],
+            "widths": [664, 900, 1280, 1556],
+            "heights": [277, 375, 533, 648]
+          },
+          {
+            "src": "brands-web-page-body",
+            "alt": "Brands Web Page Body",
+            "format": ["webp", "jpg"],
+            "widths": [664, 900, 1280, 1556],
+            "heights": [879, 1192, 1695, 2061]
+          }
+        ]
+      },
+      "block-2": [
+        {
+          "src": "rolex-watch-repair-toolkit",
+          "alt": "Rolex Watch Repair Toolkit",
+          "format": ["webp", "jpg"],
+          "widths": [640, 960, 1280, 1800],
+          "heights": [640, 960, 1280, 1800],
+          "light_box": true
+        },
+        {
+          "src": "ring-being-fired",
+          "alt": "Ring Being Fired",
+          "format": ["webp", "jpg"],
+          "widths": [640, 960, 1280, 1800],
+          "heights": [640, 960, 1280, 1800],
+          "light_box": true
+        },
+        {
+          "src": "watch-specialist-repairing-watch",
+          "alt": "Watch Specialist Repairing Watch",
+          "format": ["webp", "jpg"],
+          "widths": [640, 960, 1280, 1800],
+          "heights": [640, 960, 1280, 1800],
+          "light_box": true
+        },
+        {
+          "src": "jeweller-stone-setting",
+          "alt": "Jeweller Stone Setting",
+          "format": ["webp", "jpg"],
+          "widths": [640, 960, 1280, 1800],
+          "heights": [640, 960, 1280, 1800],
+          "light_box": true
+        },
+        {
+          "src": "watch-specialist-pocket-watch",
+          "alt": "Watch Specialist Inspecting Pocket Watch",
+          "format": ["webp", "jpg"],
+          "widths": [640, 960, 1280, 1800],
+          "heights": [640, 960, 1280, 1800],
+          "light_box": true
+        },
+        {
+          "src": "ring-valuation-equipment",
+          "alt": "Ring Valuation Equipment",
+          "format": ["webp", "jpg"],
+          "widths": [640, 960, 1280, 1800],
+          "heights": [640, 960, 1280, 1800],
+          "light_box": true
+        }
+      ]
+    }
+  }
+}

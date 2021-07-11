@@ -1,0 +1,35 @@
+//- Handles picture data
+- 
+  const setLines = (id, type) => {
+    const line = [];
+    widths.forEach(size => {
+      line.push(`/images/${id}/${id}-${src}-${size}.${type} ${size}w`)
+    });
+    return line.toString();
+  };
+  const limitWidth = limit_width ? 'limit_width' : '';
+  const size = (dms) => dms.length < 3 ? dms[dms.length - 1] : dms[2];
+  const setSize = format.includes('svg') ? '' : `-${size(widths)}`;
+  const setFormat = format.includes('jpg') ? 'jpg' : format[format.length - 1];
+  const lightBox = light_box ? 'gallery': '';
+
+//- Renders picture sets
+picture
+  if (!format.includes('svg'))
+    each type in format
+      source(
+        type=`image/${type}` 
+        data-sizes="auto" 
+        data-srcset=`${setLines(id, type)}`
+      )
+
+  img.lazyload(
+    class=`${limitWidth}` 
+    data-sizes="auto" 
+    src=`data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${size(widths)} ${size(heights)}"%3E%3C/svg%3E` 
+    data-src=`/images/${id}/${id}-${src}${setSize}.${setFormat}` 
+    alt=`${client} ${alt}` 
+    width=`${size(widths)}` 
+    height=`${size(heights)}` 
+    data-gallery=`${lightBox}`
+  )

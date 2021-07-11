@@ -1,0 +1,28 @@
+{
+  "client": "Oxfam Creative Concept",
+  "heading": "Marketing and print design",
+  "description": "A creative piece of marketing/print design from a university project focused on famine. Following Oxfam’s ‘Be Humankind’ branding really helped bring it to life.",
+  "categories": ["Print"],
+  "text": [
+    "Before anybody gets excited I’m afraid I didn’t produce this for Oxfam, I wish it were the case, this was part of a university project focused on famine. Following Oxfam’s ‘Be Humankind’ branding really helped bring it to life.",
+    "You’d struggle to ignore the bold headline and blood stained hands — the perspective invokes a sense of responsibility, pulling on your heart-strings."
+  ],
+  "images": {
+    "gallery": {
+      "src": "gallery-image",
+      "alt": "Gallery Image",
+      "format": ["webp", "jpg"],
+      "widths": [640, 960, 1280],
+      "heights": [640, 960, 1280]
+    },
+    "main": [
+      {
+        "src": "mockup",
+        "alt": "Newspaper Mockup",
+        "format": ["webp", "jpg"],
+        "widths": [640, 900, 1800, 2400, 3260],
+        "heights": [421, 591, 1183, 1577, 2142]
+      }
+    ]
+  }
+}

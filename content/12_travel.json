@@ -1,0 +1,15 @@
+{
+  "client": "'What an Experience'",
+  "heading": "An incredible 11 months of travel throughout Asia, New Zealand and Australia.",
+  "description": "An Instagram feed documenting my time away travelling. Hopefully you can appreciate my eye for catching a good frame…",
+  "categories": ["Travel"],
+  "images": {
+    "gallery": {
+      "src": "gallery-image",
+      "alt": "Gallery Image",
+      "format": ["webp", "jpg"],
+      "widths": [640, 960, 1280],
+      "heights": [640, 960, 1280]
+    }
+  }
+}

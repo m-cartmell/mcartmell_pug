@@ -1,0 +1,11 @@
+button {
+  &.block {
+    @include buttons;
+  }
+
+  &.plain {
+    @include links;
+
+    background-color: transparent;
+  }
+}

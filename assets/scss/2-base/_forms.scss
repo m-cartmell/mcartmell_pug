@@ -1,0 +1,67 @@
+label,
+input,
+textarea {
+  cursor: pointer;
+  font-size: rem(18px);
+  transition: all $easeInOut;
+}
+
+textarea {
+  min-height: rem(70px);
+  overflow: auto;
+  resize: vertical;
+  vertical-align: top;
+}
+
+input,
+textarea {
+  -webkit-appearance: none;
+  background-color: white;
+  border: rem(1px) solid $secondaryColour;
+  border-radius: 0;
+  outline: none;
+  padding: rem(7px) rem(14px);
+  width: 100%;
+
+  &:focus,
+  &:hover {
+    border-color: $primaryColour !important;
+  }
+
+  &.error {
+    border-color: $error;
+  }
+
+  &.valid {
+    border-color: $success;
+  }
+}
+
+label {
+  color: $secondaryColour;
+  pointer-events: none;
+  position: absolute;
+}
+
+.input_group {
+  margin-bottom: rem(30px);
+  position: relative;
+}
+
+.input_label {
+  left: rem(14px);
+  top: rem(7px);
+}
+
+.input_focused {
+  opacity: 0;
+}
+
+.validation_error {
+  bottom: rem(-18px);
+  color: $error;
+  font-size: rem(12px);
+  font-weight: 500;
+  right: 0;
+  transition: all $easeInOut;
+}

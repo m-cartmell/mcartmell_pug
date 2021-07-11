@@ -1,0 +1,54 @@
+// Fill area within a relative element
+@mixin absoluteFillArea {
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+// Button styles
+@mixin buttons {
+  background-color: white;
+  border: rem(1px) solid $primaryColour;
+  color: $primaryColour;
+  cursor: pointer;
+  display: inline-block;
+  padding: rem(3px) rem(12px) rem(4px);
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  transition: all $easeInOut;
+
+  &:hover {
+    background-color: $primaryColour;
+    color: white;
+  }
+
+  &:focus {
+    outline: none;
+  }
+}
+
+// Link styles
+@mixin links {
+  color: $secondaryColour;
+  cursor: pointer;
+  display: inline-block;
+  outline: 0;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  text-decoration: none;
+  transition: color $easeInOut;
+
+  &:hover {
+    color: $primaryColour;
+  }
+}
+
+// No selection
+@mixin userSelectNone {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none;
+}

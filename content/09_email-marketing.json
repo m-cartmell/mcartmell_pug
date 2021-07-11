@@ -1,0 +1,97 @@
+{
+  "client": "Email Marketing",
+  "heading": "Experience in MailChimp and Campaign Monitor",
+  "description": "I’ve spent a number of years mastering the craft of email marketing, developing both custom and platform built campaigns.",
+  "categories": ["Digital"],
+  "text": [
+    "I’ve spent a number of years mastering the craft of email marketing, developing both custom and platform built campaigns. Part of the mastery has involved building personalised database driven emails, setting up branded reusable id friendly templates, integrating newsletter sign ups, and automating workflows to segment consumer data or respond to user interactions.",
+    "Simplicity is still the key to delivering the most effective email marketing campaign."
+  ],
+  "images": {
+    "gallery": {
+      "src": "gallery-image",
+      "alt": "Gallery Image",
+      "format": ["webp", "jpg"],
+      "widths": [640, 960, 1280],
+      "heights": [640, 960, 1280]
+    },
+    "top": [
+      {
+        "src": "mobile-screens",
+        "alt": "Mobile Screens Mockup",
+        "format": ["webp", "jpg"],
+        "widths": [640, 960, 1280, 1920, 2560],
+        "heights": [301, 452, 603, 904, 1205],
+        "limit_width": true
+      }
+    ],
+    "lower": {
+      "block": {
+        "accordion": [
+          {
+            "src": "clean-genie-email-top",
+            "alt": "Clean Genie Example Top",
+            "format": ["webp", "jpg"],
+            "widths": [664, 900, 1176],
+            "heights": [498, 675, 882]
+          },
+          {
+            "src": "clean-genie-email-body",
+            "alt": "Clean Genie Example Body",
+            "format": ["webp", "jpg"],
+            "widths": [664, 900, 1176],
+            "heights": [1337, 1812, 2368]
+          }
+        ],
+        "accordion2": [
+          {
+            "src": "first-port-email-top",
+            "alt": "First Port Example Top",
+            "format": ["webp", "jpg"],
+            "widths": [664, 900, 1176],
+            "heights": [498, 675, 882]
+          },
+          {
+            "src": "first-port-email-body",
+            "alt": "First Port Example Body",
+            "format": ["webp", "jpg"],
+            "widths": [664, 900, 1176],
+            "heights": [2033, 2756, 3601]
+          }
+        ],
+        "accordion3": [
+          {
+            "src": "cmj-email-top",
+            "alt": "CMJ Example Top",
+            "format": ["webp", "jpg"],
+            "widths": [664, 900, 1176],
+            "heights": [498, 675, 882]
+          },
+          {
+            "src": "cmj-email-body",
+            "alt": "CMJ Example Body",
+            "format": ["webp", "jpg"],
+            "widths": [664, 900, 1176],
+            "heights": [1254, 1700, 2222]
+          }
+        ],
+        "accordion4": [
+          {
+            "src": "mgx-email-top",
+            "alt": "MicroGraphix Example Top",
+            "format": ["webp", "jpg"],
+            "widths": [664, 900, 1176],
+            "heights": [498, 675, 882]
+          },
+          {
+            "src": "mgx-email-body",
+            "alt": "MicroGraphix Example Body",
+            "format": ["webp", "jpg"],
+            "widths": [664, 900, 1176],
+            "heights": [815, 1104, 1443]
+          }
+        ]
+      }
+    }
+  }
+}

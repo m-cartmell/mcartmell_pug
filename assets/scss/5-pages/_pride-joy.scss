@@ -1,0 +1,7 @@
+.pride-joy {
+  .top_content {
+    @include horizontal_pad_0;
+
+    padding-bottom: 0;
+  }
+}

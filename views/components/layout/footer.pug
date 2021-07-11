@@ -1,0 +1,25 @@
+.icons
+  a.wrap(
+    title="My LinkedIn" 
+    href="https://www.linkedin.com/in/m-cartmell/" 
+    target="_blank" 
+    rel="noreferrer"
+  )
+    include ../icons/linkedin-icon
+
+  a.wrap(
+    title="My GitHub" 
+    href="https://github.com/m-cartmell" 
+    target="_blank" 
+    rel="noreferrer"
+  )
+    include ../icons/github-icon
+
+  button#show_form.plain.wrap(title="Message me" type="button")
+    include ../icons/envelope-icon
+
+.copyright
+  | &copy;
+  | mcartmell.&nbsp;
+  script.
+    document.write(new Date().getFullYear())

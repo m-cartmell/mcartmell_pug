@@ -1,0 +1,38 @@
+section.main_content
+
+  - 
+    const facets = id.includes('facets')
+
+  if (images.main)
+    .column.image_block(class=`${facets ? 'image_comp' : ''}`)
+
+      if (facets)
+        include ../window-top-bar
+
+      each img in images.main
+        - 
+          const { src, alt, format, widths, heights, columns, limit_width } = img;
+        if (facets)
+          //- Renders picture sets
+          include ../image
+        if (id.includes('oxfam'))
+          a.glightbox(href=`/images/${id}/${id}.jpg`)
+            //- Renders picture sets
+            include ../image
+            //- Expand icon
+            include ../icons/expand-icon
+        else if (id.includes('wongs'))
+          include ../accordion
+
+  //- Text content
+  .column.text_block
+    .wrapper
+      h1= heading
+      h2= client
+
+      if (text)
+        each paragraph in text
+          p= paragraph
+
+  if (id ==='travel')
+    .elfsight-app-599e27b4-e246-43dd-a8a2-e4d58b0a6d43
